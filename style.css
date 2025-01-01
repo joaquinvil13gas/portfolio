@@ -320,7 +320,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(Mobile test.jpg);
+        background-image: url(Mobile test.png);
     }
     .header-text{
         margin-top: 100%;
