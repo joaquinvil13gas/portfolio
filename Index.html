@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/82feb692f9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/output-onlinepngtools.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Marketing Professional</p>
+            <h1>Hi, I'm <span>Joaquin.</span></h1>
+        </div>
+    </div>
+</div>
+<!-----------about--------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/joaquin dp 480.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Results-driven marketing professional with strategic marketing, consumer behavior, and account management expertise. Proven ability to manage multiple client accounts, meet tight deadlines, and build strong team and client relationships. Creative problem-solver committed to delivering impactful results and continuous growth.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Project Management</span><br>Point-person on multiple projects to make sure milestones are met.</li>
+                        <li><span>Client Services</span><br>Effective communication and building strong client relationships.</li>
+                        <li><span>Public Speaking</span><br>Strong experience in presenting to high-status clients.</li>
+                        <li><span>Market Research</span><br>Ability to evaluate large amounts of data to identify trends and draw insights.</li>
+                        <li><span>Social Media Management</span><br>Developed content strategies, and ran ad campaigns to boost visibility.</li>
+                        <li><span>TOOLS</span><br>HTML/CSS | Asana | Slack | Mailchimp | Canva | MS Office | GSuite.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2024</span><br>Administration Officer at Highland City Club.</li>
+                        <li><span>2023-2024</span><br>Account Manager at Arsenal Marketing Consultancy.</li>
+                        <li><span>2022</span><br>Internship at EON Stakeholders Relationship Group Inc.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2018 - 2023</span><br>Bachelor's Degree in Integrated Marketing Communication <br>from the University of Asia & the Pacific.</li>
+                        <li><span>Relevant Coursework</span><br>IMC Cases and Application, Applied Market Research and Analytics, Brand Communications Management, IMC Elective: Strategic Management.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------services------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-rocket"></i>
+                <h2>Campaign Strategies</h2>
+                <p>Provide a strategic analysis on your brand and a calendar-planned campaign based off the strategy.</p>
+                <a href="#contact">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-users"></i>
+                <h2>Social Media Management</h2>
+                <p>Provide concrete content strategies, and community engagement; Direct Messages, Social Media Reports, and Lead Tracking.</p>
+                <a href="#contact">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-user-tie"></i>
+                <h2>Client Support</h2>
+                <p>Provide remote administrative assistance to clients in need.</p>
+                <a href="#contact">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------portfolio----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <p class="sub-header">Videos</p>
+        <div class="work-list videos-grid">
+            <div class="work">
+                <a href="https://drive.google.com/file/d/1yJDkrqse9VABDaukBLeH9ouDPk2hOKvO/view?usp=sharing" target="_blank">
+                <video autoplay muted loop>
+                    <source src="Videos/Schneider.mp4" type="video/mp4">
+                </video>
+                </a>
+            </div>
+            <div class="work">
+                <a href="https://drive.google.com/file/d/1uowtVStXkbBB6oDIB8AWoqZbw0Gnf8yM/view?usp=sharing" target="_blank">
+                <video autoplay muted loop>
+                    <source src="Videos/Peekup Compressed.mp4" type="video/mp4">
+                </video>
+                </a>
+            </div>
+            <div class="work">
+                <a href="https://drive.google.com/file/d/1LgFa-Nb5Oq_f9jPjzyYIkTD8po5IJRdU/view?usp=sharing" target="_blank">
+                <video autoplay muted loop>
+                    <source src="Videos/Bouncy Compressed.mp4" type="video/mp4">
+                </video>
+                </a>
+            </div>
+            <div class="work">
+                <a href="https://drive.google.com/file/d/11xmLP3ulDlTQrlYY9VQje5NY6PpmaYCY/view?usp=sharing" target="_blank">
+                <video autoplay muted loop>
+                    <source src="Videos/BPITC Compressed.mp4" type="video/mp4">
+                </video>
+                </a>
+            </div>
+            <div class="work">
+                <a href="https://drive.google.com/file/d/1Iq4DVefOX0aAEZ-EVLx8yMil5E635ijE/view?usp=drive_link" target="_blank">
+                <video autoplay muted loop>
+                    <source src="Videos/Evergreen Compressed.mp4" type="video/mp4">
+                </video>
+                </a>
+            </div>
+            <div class="work">
+                <a href="https://drive.google.com/file/d/1wC2-GDNOLA6Ih-tMb58lCeOaaRJPV5t9/view?usp=drive_link" target="_blank">
+                <video autoplay muted loop>
+                    <source src="Videos/JRS Express Compressed.mp4" type="video/mp4">
+                </video>
+                </a>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See assets</a>
+    </div>
+    <div class="container">
+            <div class="img-grid">
+                <div class="work">
+                    <img src="images/Rust 1.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/EG 1.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/JRS 1.png">
+                </div>
+                <div class="work">
+                    <img src="images/SID 1.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/SE 1.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/Bouncy 1.png">
+                </div>
+                <div class="work">
+                    <img src="images/BMK 1.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/Peekup 1.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/Rus 2.2.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/EG 2.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/JRS 2.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/SID 2.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/SE 2.png">
+                </div>
+                <div class="work">
+                    <img src="images/Bouncy 2.png">
+                </div>
+                <div class="work">
+                    <img src="images/BMK 2.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/Peekup 2.png">
+                </div>
+                <div class="work">
+                    <img src="images/Rus 3.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/EG 3.png">
+                </div>
+                <div class="work">
+                    <img src="images/JRS 3.png">
+                </div>
+                <div class="work">
+                    <img src="images/SID 3.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/SE 3.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/Bouncy 3.png">
+                </div>
+                <div class="work">
+                    <img src="images/BMK 3.jpg">
+                </div>
+                <div class="work">
+                    <img src="images/Peekup 3.png">
+                </div>
+    </div>
+</div>
+<!--------------------Contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> jqlvillegas@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +1 561 836-2416</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/joaquin-villegas1331/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" <-download- class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025 Joaquin Villegas. All Rights Reserved.</p>
+    </div>
+</div>
+
+<script>
+    const button = document.querySelector('.btn');
+    const assets = document.querySelector('.img-grid');
+    const portfolioContainer = document.querySelector('#portfolio');
+
+    button.addEventListener('click', function(event) {
+        event.preventDefault();
+        if (assets.style.display === 'none' || assets.style.opacity === '0') {
+            assets.style.display = 'grid';
+            setTimeout(() => {
+                assets.classList.add('show-assets');
+            }, 100);  
+            button.classList.add('slide-down');
+            button.textContent = 'See less';
+            assets.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            assets.classList.remove('show-assets');
+            setTimeout(() => {
+                assets.style.display = 'none';
+            }, 500); 
+            button.classList.remove('slide-down');
+            button.textContent = 'See assets';
+            portfolioContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+</script>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+        document.addEventListener('contextmenu', function(event) { 
+
+event.preventDefault(); 
+
+}, false);
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx5iLQ_IF8G71H8doHvpbRzO76-G7Seu1Gyi0d4QELIfEdo74W9JL_OofcGGm5NqZZU/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Thank you for your message."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
