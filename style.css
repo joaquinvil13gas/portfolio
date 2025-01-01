@@ -322,7 +322,8 @@ nav .fas{
     #header{
         background-image: url(Mobile test.png);
         background-size: cover;
-        background-position: center;
+        background-position: center center; 
+        min-height: 300px;
     }
     .header-text{
         margin-top: 100%;
