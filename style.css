@@ -318,9 +318,12 @@ nav .fas{
     display: none;
 }
 
-@media only screen and (max-width: 800px){
+@media (max-width: 768px){
     #header{
-        background-image: url(Mobile final test.jpg);
+        background-image: url(Images/Mobile.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-attachment: scroll;
     }
     .header-text{
         margin-top: 100%;
